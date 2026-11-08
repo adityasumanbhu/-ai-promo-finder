@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE settings
+.idea/
+
+# Sensitive files
+.env
+
+# Generated outputs
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# All data: screenplays, processed files and AI cache (confidential)
+data/
+
+# VS Code settings
+.vscode/
+# Golden set describes the script: shared on Drive, never committed
+golden_set.csv

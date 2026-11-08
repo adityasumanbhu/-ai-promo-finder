@@ -1,0 +1,21 @@
+You are scrolling a short-drama app. You have never seen this show and know nothing about its story.
+Below are <<COUNT>> promo clips for it, written as script text. Each one would play as a 20-60 second
+video ad. [CUT] marks a jump to a different moment.
+
+Rank the clips from the one that would most make you tap "watch now" to the one that would least.
+
+Judge only what is in the clip:
+- Hook: do the first 3 seconds grab you without any background?
+- Clarity: can you tell who these people are and what is at stake, without earlier episodes?
+- Cliffhanger: does the ending leave a question you need answered?
+Judge the pull of the moment, not how well the lines are written.
+
+<<PROMOS>>
+
+Answer in JSON only, in this format:
+{
+  "ranking": [
+    {"id": "C03", "reason": "one line on why this clip pulls you in, or why it does not", "confusing": false}
+  ]
+}
+List every clip id exactly once, best first. Set "confusing" to true if a new viewer could not follow what is happening.

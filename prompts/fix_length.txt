@@ -1,0 +1,15 @@
+FEEDBACK ON YOUR ANSWER
+
+Our code measured the promos below, and their total length is outside the 20-60 second limit.
+A segment lasts from the start time of its start_line to the end time of its end_line. Lines overlap,
+so the earliest start and the latest end inside the segment count.
+
+<<FEEDBACK>>
+
+Fix only these promos. For each one:
+- Keep the same story moment, hook_line and cliffhanger_line if you can.
+- If it is too long, cut lines from the middle or drop a segment. If it is too short, add lines or add a segment.
+- Aim for 25 to 55 seconds in total, and write the real total in approx_seconds.
+- All the other rules above still apply.
+
+Answer in the same JSON format as before. Put exactly one entry in "promos" for each promo listed above, in the same order.
